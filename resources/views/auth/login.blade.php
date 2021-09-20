@@ -8,7 +8,7 @@
 </section>
 <section class="login-content">
     <div class="logo">
-        <h1>Sales Erp</h1>
+        <h1>John Hasmie</h1>
     </div>
     <div class="login-box">
         <form class="login-form" method="POST" action="{{ route('login') }}">

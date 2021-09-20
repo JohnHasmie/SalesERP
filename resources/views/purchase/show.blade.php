@@ -21,7 +21,7 @@
                     <section class="invoice">
                         <div class="row mb-4">
                             <div class="col-6">
-                                <h2 class="page-header"><i class="fa fa-globe"></i> Sales ERP</h2>
+                                <h2 class="page-header"><i class="fa fa-globe"></i> John Hasmie</h2>
                             </div>
                             <div class="col-6">
                                 <h5 class="text-right">Date: {{$invoice->created_at->format('Y-m-d')}}</h5>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="row invoice-info">
                             <div class="col-4">From
-                                <address><strong>Sales ERP.</strong><br>Tongi<br>Gazipur<br>Email: hello@saleserp.com</address>
+                                <address><strong>John Hasmie.</strong><br>Tongi<br>Gazipur<br>Email: hello@saleserp.com</address>
                             </div>
                             <div class="col-4">To
                                  <address><strong>{{$invoice->customer->name}}</strong><br>{{$invoice->customer->address}}<br>Phone: {{$invoice->customer->mobile}}<br>Email: {{$invoice->customer->email}}</address>
